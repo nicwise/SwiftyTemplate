@@ -9,8 +9,6 @@ PODS:
   - RxCocoa (2.1.0):
     - RxSwift (~> 2.0)
   - RxSwift (2.1.0)
-  - RxTests (2.1.0):
-    - RxSwift (~> 2.0)
   - SwiftyJSON (2.3.2)
   - Valet (2.0.7)
 
@@ -19,7 +17,6 @@ DEPENDENCIES:
   - RxBlocking (~> 2.0)
   - RxCocoa (~> 2.0)
   - RxSwift (~> 2.0)
-  - RxTests (~> 2.0)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
   - Valet
 
@@ -38,7 +35,6 @@ SPEC CHECKSUMS:
   RxBlocking: fa297def258d85c5beae9ed507f94645260b3747
   RxCocoa: 79b5feb8378545336e756a0a33fcf5e95050b71c
   RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
-  RxTests: 94c67ffc37c36bd8c7aec90a84601a3db142be94
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   Valet: a46a1e8dd6ba326ccb8f591fb3c4f42d2710b1fb
 

@@ -83,23 +83,21 @@ strip_invalid_archs() {
 }
 
 
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-ProjectTemplate/Realm.framework"
-  install_framework "Pods-ProjectTemplate/RealmSwift.framework"
-  install_framework "Pods-ProjectTemplate/RxBlocking.framework"
-  install_framework "Pods-ProjectTemplate/RxCocoa.framework"
-  install_framework "Pods-ProjectTemplate/RxSwift.framework"
-  install_framework "Pods-ProjectTemplate/RxTests.framework"
-  install_framework "Pods-ProjectTemplate/SwiftyJSON.framework"
-  install_framework "Pods-ProjectTemplate/Valet.framework"
-fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ProjectTemplate/Realm.framework"
   install_framework "Pods-ProjectTemplate/RealmSwift.framework"
   install_framework "Pods-ProjectTemplate/RxBlocking.framework"
   install_framework "Pods-ProjectTemplate/RxCocoa.framework"
   install_framework "Pods-ProjectTemplate/RxSwift.framework"
-  install_framework "Pods-ProjectTemplate/RxTests.framework"
+  install_framework "Pods-ProjectTemplate/SwiftyJSON.framework"
+  install_framework "Pods-ProjectTemplate/Valet.framework"
+fi
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ProjectTemplate/Realm.framework"
+  install_framework "Pods-ProjectTemplate/RealmSwift.framework"
+  install_framework "Pods-ProjectTemplate/RxBlocking.framework"
+  install_framework "Pods-ProjectTemplate/RxCocoa.framework"
+  install_framework "Pods-ProjectTemplate/RxSwift.framework"
   install_framework "Pods-ProjectTemplate/SwiftyJSON.framework"
   install_framework "Pods-ProjectTemplate/Valet.framework"
 fi
