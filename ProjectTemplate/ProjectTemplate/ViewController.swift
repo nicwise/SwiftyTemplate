@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         let rxSwift = RxSwiftSample()
         rxSwift.test()
 
+        let swiftyJson = SwiftyJSONSample()
+        swiftyJson.test()
+
     }
 
     override func didReceiveMemoryWarning() {

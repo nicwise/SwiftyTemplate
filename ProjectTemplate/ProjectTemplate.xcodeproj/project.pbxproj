@@ -16,6 +16,7 @@
 		1AA08ACAB6C57B4ACE47AE0A /* RealmSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA082456F209DE5E6FF28AE /* RealmSample.swift */; };
 		1AA08AD244196BF91F92F422 /* ValetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA084F32A5BB4FAEB38E2C3 /* ValetSample.swift */; };
 		1AA08BBA0DA2DD1ADFFB3BAB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA08128A457520987D3C7FE /* Settings.swift */; };
+		1AA08D745666671942BFDEA8 /* SwiftyJSONSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA085E41A4AE0F931A6C213 /* SwiftyJSONSample.swift */; };
 		1AA08F85AB9C158BA366E08C /* RxSwiftSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA08007CBE2F08841379BD3 /* RxSwiftSample.swift */; };
 		470359E6B2D6A48C93340D38 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2EDECB4D843E75DE2DBF1C /* Pods.framework */; };
 		6A3510FCB2B0865E415FC07E /* Pods_ProjectTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCAB8098DDE2C65B5E8C3DB /* Pods_ProjectTemplate.framework */; };
@@ -47,6 +48,7 @@
 		1AA08128A457520987D3C7FE /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		1AA082456F209DE5E6FF28AE /* RealmSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmSample.swift; sourceTree = "<group>"; };
 		1AA084F32A5BB4FAEB38E2C3 /* ValetSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetSample.swift; sourceTree = "<group>"; };
+		1AA085E41A4AE0F931A6C213 /* SwiftyJSONSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONSample.swift; sourceTree = "<group>"; };
 		2F2EDECB4D843E75DE2DBF1C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257592520E8CF503839BFFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CDCAB8098DDE2C65B5E8C3DB /* Pods_ProjectTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				1AA082456F209DE5E6FF28AE /* RealmSample.swift */,
 				1AA084F32A5BB4FAEB38E2C3 /* ValetSample.swift */,
 				1AA08007CBE2F08841379BD3 /* RxSwiftSample.swift */,
+				1AA085E41A4AE0F931A6C213 /* SwiftyJSONSample.swift */,
 			);
 			path = Samples;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				1AA08AD244196BF91F92F422 /* ValetSample.swift in Sources */,
 				1AA08BBA0DA2DD1ADFFB3BAB /* Settings.swift in Sources */,
 				1AA08F85AB9C158BA366E08C /* RxSwiftSample.swift in Sources */,
+				1AA08D745666671942BFDEA8 /* SwiftyJSONSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
