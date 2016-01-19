@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
@@ -14,9 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        Settings.shared.username = "foo"
+        let valet = ValetSample()
+        valet.test()
 
-        print("username: \(Settings.shared.username!)")
+
+        let realm = RealmSample()
+        realm.test()
+
+        let rxSwift = RxSwiftSample()
+        rxSwift.test()
 
     }
 
@@ -27,4 +34,6 @@ class ViewController: UIViewController {
 
 
 }
+
+
 
